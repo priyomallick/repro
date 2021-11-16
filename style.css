@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    padding: 0px;
 }
 h1{
     font-size: 40px;
@@ -20,7 +21,7 @@ h2{
 }
 p{
 font-family: cursive;
-color: springgreen;
+color: rgb(13, 14, 13);
 
 
 }
@@ -39,14 +40,14 @@ color: springgreen;
 .first{
   width: 40%;
    float: left;
-    margin-left: 5%;
+    margin-left: 2%;
     padding: 2%;
 }
 .first img{
     width: 100%;
 }
 .first-half{
-    background-image: url("2nd.png");
+    background-image: url("2.jpg");
     
 }
 section{
@@ -68,11 +69,13 @@ section{
     
 }
 .last{
-    background-image: url("fst.jpg");
+    background-image: url("2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 20%;
     padding-bottom: 20px;
+    height: 12px;
+    
     
 
 }
@@ -84,4 +87,34 @@ section{
 }
 .color{
     color:yellow;
+}
+.david{
+    color: crimson;
+}
+.ozil{
+    color: fuchsia;
+}
+.single{
+    box-shadow: 10px 10px 40px rgb(92, 33, 43);
+    border-radius: 10px;
+    height: 40%;
+    
+}
+
+
+#priyo{
+    border-left: 7px solid;
+    background-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+.foot{
+    padding-left: 45%;
+    font-size: 30px;
+    border: 2px solid red;
+    background-color: rgb(13, 14, 13);
+    border-radius: 4px;
+}
+.sceond{
+border: black solid 2px;
+padding-top: -10px;
 }
